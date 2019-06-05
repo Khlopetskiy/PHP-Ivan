@@ -5,6 +5,9 @@
     <title>Регистрация</title>
 </head>
 <body>
+    <?php if ($message): ?>
+    <p><?=$message ?></p>
+    <?php endif ?>
 <h1>Регистрация</h1>
 <form method="post" action="form.php">
     <label for="first_name">Имя</label>
