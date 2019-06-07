@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        label {
+            border: 1px solid red;
+        }
+        div {
+            border: 1px solid black;
+           padding: 10px;
+            width: 40%;
+        }
+    </style>
 </head>
 <body>
 <form>
@@ -12,6 +22,15 @@
     <label for="checkbox2">Я отмечен по умолчанию!</label><br>
     <input type="checkbox" id="checkbox3" checked disabled>
     <label for="checkbox3">Я disabled!</label>
+<div>
+    <p>Это группа раидокнопок - только одна из них может быть отмечена!</p>
+    <input type="radio" id="radio">
+    <label for="radio">Это метка для радио</label><br>
+    <input type="radio" id="radio1">
+    <label for="radio1">Это метка для радио</label><br>
+
+</div>
+    <input type="submit" value="Отправить на сервер">
 </form>
 </body>
 </html>
