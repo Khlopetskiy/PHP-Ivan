@@ -12,6 +12,13 @@ abstract class FormElement
      */
 
     private $label;
+
+
+   public function __construct(string $name, string $label) {
+       $this->name = $name;
+       $this->label = $label;
+   }
+
     public function getName(): string
     {
         return $this->name;
@@ -20,10 +27,9 @@ abstract class FormElement
 
 
 
-    public function __construct(string $name, $label)
+    public function getLable(): string
     {
-        $this->name = $name;
-        $this->label = $label;
+        return $this->label;
     }
 
     abstract public function render():string;

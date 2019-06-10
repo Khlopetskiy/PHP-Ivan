@@ -1,9 +1,12 @@
 <?php
 
-require 'classes/Form.php';
-
+spl_autoload_register(function ($className) {
+    $fileName = __DIR__ . '/classes/' . $className . '.php';
+    require $fileName;
+});
+$message = '';
 $form = new Form();
-$form->add('text', 'name');
-$form->add('date', 'dob');
+$form->add(new InputElement('first_name', 'Имя'));
+$form->add(new InputElement('last_name', 'Фамилия'));
 
-var_dump($form->getElements());
+require 'opp_form.tpl.php';
