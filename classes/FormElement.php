@@ -12,7 +12,11 @@ abstract class FormElement
      */
 
     private $label;
+    /**
+     * @var
+     */
 
+    protected $value;
 
    public function __construct(string $name, string $label) {
        $this->name = $name;
@@ -31,6 +35,24 @@ abstract class FormElement
     {
         return $this->label;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getValue(): string
+    {
+        return $this->value;
+    }
+
+    /**
+     * @param mixed $value
+     */
+    public function setValue($value): void
+    {
+        $this->value = $value;
+    }
+
+
 
     abstract public function render():string;
 
