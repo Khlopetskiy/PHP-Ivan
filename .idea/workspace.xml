@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d83f7dcb-55df-45fe-be7f-53681d60fb8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/ButtonElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/ButtonElement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/FormElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/FormElement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/InputElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/InputElement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opp_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/opp_form.php" afterDir="false" />
-    </list>
+    <list default="true" id="d83f7dcb-55df-45fe-be7f-53681d60fb8c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +40,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/Form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="65">
+              <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -56,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/FormElement.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="58" column="47" lean-forward="true" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+            <state relative-caret-position="312">
+              <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -71,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opp_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="-90">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -152,10 +154,10 @@
         <option value="$PROJECT_DIR$/classes/EmailElement.php" />
         <option value="$PROJECT_DIR$/classes/PasswordElement.php" />
         <option value="$PROJECT_DIR$/classes/ButtonElement.php" />
-        <option value="$PROJECT_DIR$/classes/FormElement.php" />
         <option value="$PROJECT_DIR$/classes/InputElement.php" />
-        <option value="$PROJECT_DIR$/classes/Form.php" />
         <option value="$PROJECT_DIR$/opp_form.php" />
+        <option value="$PROJECT_DIR$/classes/FormElement.php" />
+        <option value="$PROJECT_DIR$/classes/Form.php" />
       </list>
     </option>
   </component>
@@ -241,7 +243,7 @@
       <workItem from="1559146005234" duration="5320000" />
       <workItem from="1559750871765" duration="3552000" />
       <workItem from="1560183030779" duration="5483000" />
-      <workItem from="1560355595559" duration="5193000" />
+      <workItem from="1560355595559" duration="5469000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1558545921496</created>
@@ -334,11 +336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560358265949</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="first commit">
+      <created>1560361005738</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560361005738</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30655000" />
+    <option name="totallyTimeSpent" value="30931000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,9 +360,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1311" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.26640317" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.26640317" />
       <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.2458498" />
       <window_info id="Favorites" order="2" sideWeight="0.50083196" side_tool="true" weight="0.24979919" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -365,10 +373,10 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884902" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3064275" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.13303438" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3064275" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27204782" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="12" visible="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.32884902" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32884902" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -478,10 +486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/FormElement.php">
+    <entry file="file://$PROJECT_DIR$/opp_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="58" column="47" lean-forward="true" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+        <state relative-caret-position="-90">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -492,10 +500,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/FormElement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="65">
+          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -503,13 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opp_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
         </state>
       </provider>
     </entry>
