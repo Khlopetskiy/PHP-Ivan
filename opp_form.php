@@ -1,4 +1,5 @@
 <?php
+require 'functions.php';
 
 spl_autoload_register(function ($className) {
     $fileName = __DIR__ . '/classes/' . $className . '.php';
@@ -6,14 +7,14 @@ spl_autoload_register(function ($className) {
 });
 $message = '';
 $form = new Form();
-$form->add(new InputElement('first_name', 'Имя'));
-$form->add(new InputElement('last_name', 'Фамилия'));
-$form->add(new EmailElement('email', 'Email'));
-$form->add(new PasswordElement('password', 'Пароль'));
+$form->add(new InputElement('first_name', 'Имя', true));
+$form->add(new InputElement('last_name', 'Фамилия', true));
+$form->add(new EmailElement('email', 'Email', true));
+$form->add(new PasswordElement('password', 'Пароль', true));
 $form->add(new ButtonElement('submit', 'Зарегистрировать'));
 $form->handleRequest();
 
-if ($form->isSubmited()) {
+if ($form->isSubmitted()) {
     $result = saveUser(
         $form->getValue('first_name'),
         $form->getValue('last_name'),

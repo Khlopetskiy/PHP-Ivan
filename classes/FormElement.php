@@ -17,10 +17,17 @@ abstract class FormElement
      */
 
     protected $value;
+    protected $required = false;
 
-   public function __construct(string $name, string $label) {
+    /**
+     * @var string
+     */
+    protected $error = '';
+
+   public function __construct(string $name, string $label, bool $required = false) {
        $this->name = $name;
        $this->label = $label;
+       $this->required = $required;
    }
 
     public function getName(): string
@@ -50,9 +57,15 @@ abstract class FormElement
     public function setValue($value): void
     {
         $this->value = $value;
+        if (empty($value) && $this->required) {
+            $this->error= 'Поле должно бы пустым';
+        }
     }
 
-
+public function  getError(): string
+{
+    return $this->error;
+}
 
     abstract public function render():string;
 
