@@ -1,6 +1,6 @@
 <?php
 
-$pdo = new PDO('mysql:host=localhost;dbname=test', 'root', 'root');
+$pdo = new PDO('mysql:host=localhost;dbname=my_base', 'root', 'root');
 
 $query = $pdo->query('SELECT firts_name, last_name, email FROM users ORDER by first_name ');
 ?>
